@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>
+        Hi, <%= user %>, welcome to our class
+    </h1>
+
+    <% if (gender == 'male') { %>
+      <p>he is a boy</p>
+    <% }else{ %>
+        <p>she is a girl</p>
+    <% } %>
+
+
+    <a href="/register"> register to continue</a>
+</body>
+</html>
